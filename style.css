@@ -21,6 +21,7 @@ nav {
     justify-content: space-between;
     position: fixed;
     top: 25px;
+    z-index: 100;
 }
 header .logo {
     display: inline-block;
@@ -51,3 +52,26 @@ nav .contacts {
     height: 60px;
     font-weight: bold;
 }
+
+.main-photos-section {
+    text-align: center;
+    position: relative; 
+    max-height: 2000px;
+}
+.main-photo img {
+    z-index: 0;
+    top: -140px;
+    position: relative;
+}
+.paragraphs {
+    width: 951px;
+    text-align: center;
+    position: relative;
+    left: 25%;
+}
+
+/**/
+
+.contacts-section {
+    background-color:#0020F4;
+} 
