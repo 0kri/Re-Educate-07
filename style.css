@@ -11,17 +11,18 @@ header {
     background-color: #0020F4;
 }
 nav {
-    width: 70%;
+    width: 100%;
     background-color: #0020F4;
     /* background-color: blueviolet; */
     height: 60px;
-    margin-left: 15%;
+    /* margin-left: 15%; */
     color: #FFFFFF;
     display: flex;
     justify-content: space-between;
     position: fixed;
-    top: 25px;
+    /* top: 25px; */
     z-index: 100;
+    
 }
 header .logo {
     display: inline-block;
